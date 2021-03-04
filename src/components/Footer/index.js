@@ -1,6 +1,13 @@
 import React from "react"
-import { Wrapper } from "./Styles"
 
 export const Footer = () => {
-  return <Wrapper>I am footah</Wrapper>
+  return (
+    <footer>
+      <div className="py-8 bg-black">
+        <p className="text-white flex justify-center">
+          © {new Date().getFullYear()} Your Business. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  )
 }
