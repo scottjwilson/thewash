@@ -6,7 +6,7 @@ const AppointmentPage = ({ title }) => {
   return (
     <Layout>
       <PageHero
-        title="its time to check out services"
+        title="its time to check our services"
         text="Choosing Car Wash is a constant process in the life of every motorist. We try to give you only positive emotions. Entrust your car cleaning to our professionals."
       />
     </Layout>

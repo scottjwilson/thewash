@@ -3,8 +3,8 @@ import hero from "../../images/hero.jpg"
 
 export const Hero = () => {
   return (
-    <header className="bg-primary pt-8">
-      <div className="h-screen lg:grid grid-cols-2 items-center rounded-b-2xl px-6 container mx-auto">
+    <header className="bg-primary pt-8 rounded-b-3xl">
+      <div className="h-screen lg:grid grid-cols-2 items-center px-6 container mx-auto">
         <div className="flex flex-col py-2 lg:py-8 md:mx-2">
           <div className="w-64 sm:w-full">
             <h1 className="text-4xl md:text-6xl lg:text-8xl font-semibold text-gray-800 tracking-wide leading-tight">

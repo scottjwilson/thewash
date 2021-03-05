@@ -1,13 +1,13 @@
 import { Link } from "gatsby"
 import React, { useState } from "react"
-import car from "../../images/car.svg"
+import logo from "../../images/logo.png"
 export const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false)
   return (
     <nav className="flex items-center justify-between flex-wrap px-6 py-4 bg-white shadow-sm">
       <div className="flex items-center flex-shrink-0 text-primary mr-2">
         <span className="font-semibold text-blue-800 text-xl tracking-tight">
-          Mobile Wash
+          <img src={logo} alt="mobile wash" />
         </span>
       </div>
       <div className="block sm:hidden">
@@ -57,7 +57,7 @@ export const Header = () => {
             About
           </Link>
           <Link
-            to={`/about`}
+            to={`/appointment`}
             className="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-secondary mr-4"
           >
             Appointments
