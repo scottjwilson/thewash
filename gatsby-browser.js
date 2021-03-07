@@ -1,3 +1,2 @@
-import "typeface-oswald"
-import "typeface-open-sans"
-import "./src/layout/layout.css"
+require("typeface-oswald")
+require("typeface-open-sans")
